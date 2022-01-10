@@ -19,7 +19,7 @@ const playlistStatus = $('#playlist-status');
 //audio object
 let audio = new Audio();
 let dir = "sounds/";
-let playlist = ["sound1", "sound2", "sound3"];
+let playlist = ["sound1", "sound2", "sound3","sound4"];
 let ext = ".mp3";
 let playlist_index = 0;
 audio.src = dir + playlist[playlist_index] + ext;
